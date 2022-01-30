@@ -46,6 +46,10 @@
   cursor: pointer;
 }
 
+.navbar ul li:hover {
+  color: goldenrod;
+}
+
 /*Home Page*/
 .home-page {
 }

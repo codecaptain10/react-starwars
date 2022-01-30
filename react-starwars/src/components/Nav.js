@@ -9,9 +9,9 @@ function Nav() {
       </div>
 
       <ul>
-        <li>Home</li>
-        <li>Heroes</li>
-        <li>Movies</li>
+        <li>HOME</li>
+        <li>HEROES</li>
+        <li>MOVIES</li>
       </ul>
     </div>
   );
