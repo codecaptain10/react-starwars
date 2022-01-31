@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Movie from "./Movie.js";
 
 function MoviesPage() {
   const [movies, setMovies] = useState([]);
@@ -17,8 +18,15 @@ function MoviesPage() {
   };
   return (
     <div className='movies-page'>
-      <h1> Movies Page</h1>
-      <p>{movies[0].title}</p>
+      {movies.map(movie => (
+        <Movie
+          episode_id={movie.episode_id}
+          title={movie.title}
+          director={movie.director}
+          relase_date={movie.release_date}
+          description={movie.opening_crawl}
+        />
+      ))}
     </div>
   );
 }
