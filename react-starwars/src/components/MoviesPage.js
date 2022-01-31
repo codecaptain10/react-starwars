@@ -2,7 +2,7 @@ import React from "react";
 
 function MoviesPage() {
   return (
-    <div className='home-page'>
+    <div className='movies-page'>
       <h1> Movies Page</h1>
     </div>
   );
